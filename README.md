@@ -1,4 +1,4 @@
-# Academic Project Page Template
+# MC-BEVRO: Multi-Camera Bird Eye View Road Occupancy Detection for Traffic Monitoring
 This is an academic paper project page template.
 
 
