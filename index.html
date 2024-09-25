@@ -134,20 +134,20 @@
     </div>
   </section>
 
-    <section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <iframe src="https://www.youtube.com/embed/co4C7_Zelbo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+
+            <div class="publication-video">
+              <iframe src="https://www.youtube.com/embed/co4C7_Zelbo" frameborder="0" allow="autoplay; encrypted-media"
+                allowfullscreen></iframe>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
   </section>
 
   <!-- Teaser video-->
@@ -171,7 +171,8 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
-              Single camera <i>3D</i> perception for traffic monitoring faces significant challenges due to occlusion and
+              Single camera <i>3D</i> perception for traffic monitoring faces significant challenges due to occlusion
+              and
               limited field of view. Moreover, fusing information from multiple cameras at the image feature level is
               difficult because of different view angles. Further, the necessity for practical implementation and
               compatibility with existing traffic infrastructure compounds these challenges. To address these issues,
@@ -199,50 +200,60 @@
   <section class="hero is-small">
     <div class="hero-body">
       <div class="container">
-        <div id="results-carousel" class="carousel results-carousel">
-          <div class="item">
-            <!-- Your image here -->
-            <img src="static/images/Fig1.jpg" alt="Figure 1" height="200px"/>
-            <h2 class="subtitle has-text-centered">
-              An overview of BEV road occupancy detection using multiple roadside cameras.
-            </h2>
-          </div>
-          <div class="item">
-            <!-- Your image here -->
-            <img src="static/images/Fig2.jpg" alt="Figure 2" height="200px"/>
-            <h2 class="subtitle has-text-centered">
-              Samples from the generated Multi-camera Occupancy Dataset showcasing diverse scenes and perspectives.
-            </h2>
-          </div>
-          <div class="item">
-            <!-- Your image here -->
-            <img src="static/images/Fig3.jpg" alt="Figure 3" height="200px"/>
-            <h2 class="subtitle has-text-centered">
-              An overview of implemented models (top) the baseline late fusion model predicts per-camera occupancy maps,
-              fused via mean aggregation, (middle) the early fusion model fuses projected features using a neural
-              network, (bottom) the integration of background information is depicted.
-            </h2>
-          </div>
-          <div class="item">
-            <!-- Your image here -->
-            <img src="static/images/Fig4.jpg" alt="Figure 4" height="200px"/>
-            <h2 class="subtitle has-text-centered">
-              Qualitative results of experiments comparing (a) predicted occupancy against ground truth for
-              corresponding multi-camera input, (b) Predicted occupancy for area covered by Camera 1, comparing input
-              from Camera 1 versus input from all cameras, and (c) Decreasing rasterization in occupancy map with
-              increasing grid size.
-            </h2>
-          </div>
-          <div class="item">
-            <!-- Your image here -->
-            <img src="static/images/Fig5.png" alt="Figure 5" height="200px"/>
-            <h2 class="subtitle has-text-centered">
-              Real-world data collection. The top row shows the pipeline to get BEV occupancy from aerial images using
-              oriented bounding box detections. The bottom row presents camera setup and predicted BEV occupancy with
-              and without fine-tuning.
-            </h2>
+
+        <div class="columns is-centered has-text-centered">
+          <div class="column is-four-fifths">
+            <div id="results-carousel" class="carousel results-carousel">
+              <div class="item">
+                <!-- Your image here -->
+                <img src="static/images/Fig1.jpg" alt="Figure 1" height="200px" />
+                <h2 class="subtitle has-text-centered">
+                  An overview of BEV road occupancy detection using multiple roadside cameras.
+                </h2>
+              </div>
+              <div class="item">
+                <!-- Your image here -->
+                <img src="static/images/Fig2.jpg" alt="Figure 2" height="200px" />
+                <h2 class="subtitle has-text-centered">
+                  Samples from the generated Multi-camera Occupancy Dataset showcasing diverse scenes and perspectives.
+                </h2>
+              </div>
+              <div class="item">
+                <!-- Your image here -->
+                <img src="static/images/Fig3.jpg" alt="Figure 3" height="200px" />
+                <h2 class="subtitle has-text-centered">
+                  An overview of implemented models (top) the baseline late fusion model predicts per-camera occupancy
+                  maps,
+                  fused via mean aggregation, (middle) the early fusion model fuses projected features using a neural
+                  network, (bottom) the integration of background information is depicted.
+                </h2>
+              </div>
+              <div class="item">
+                <!-- Your image here -->
+                <img src="static/images/Fig4.jpg" alt="Figure 4" height="200px" />
+                <h2 class="subtitle has-text-centered">
+                  Qualitative results of experiments comparing (a) predicted occupancy against ground truth for
+                  corresponding multi-camera input, (b) Predicted occupancy for area covered by Camera 1, comparing
+                  input
+                  from Camera 1 versus input from all cameras, and (c) Decreasing rasterization in occupancy map with
+                  increasing grid size.
+                </h2>
+              </div>
+              <div class="item">
+                <!-- Your image here -->
+                <img src="static/images/Fig5.png" alt="Figure 5" height="200px" />
+                <h2 class="subtitle has-text-centered">
+                  Real-world data collection. The top row shows the pipeline to get BEV occupancy from aerial images
+                  using
+                  oriented bounding box detections. The bottom row presents camera setup and predicted BEV occupancy
+                  with
+                  and without fine-tuning.
+                </h2>
+              </div>
+            </div>
           </div>
         </div>
+
       </div>
     </div>
   </section>
